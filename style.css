@@ -1,8 +1,3 @@
-
-* {
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
-}
-
 body {
     margin: 0;
 }
@@ -15,6 +10,7 @@ a:hover{
 }
 
 #navbar {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     align-items: center;
     color: #E8E8ED;
     background-color: #161617CC;
@@ -41,6 +37,7 @@ ul {
 }
 
 #offer {
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -187,14 +184,65 @@ img {
 }
 
 #iphone14{ 
-    margin: 6px 12px;
+    margin: 6px 11px;
     height: 62.2vh;
     width: 48.6vw;
     object-fit: none;
     object-position: center bottom;
 }
 #watch {
-    margin-right: 12px;
+    position: absolute;
     height: 62.2vh;
-    width: 48.6vw;
+    width: 50%;
+    top: 236.7%;
+    left: 49.7%;
+    margin-left: 3px;
+}
+
+.text4 {
+    position: absolute;
+    text-align: center;
+    left: 20%;
+    top: 237%;
+    display: flex;
+    flex-direction: column;
+}
+
+#iphone14text {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 53px;
+}
+
+#wonderful {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+#learnmorebuy3 {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 0.7em;
+    text-decoration: none;
+}
+
+.learnmore2 {
+    margin-left: -3px;
+    color: #06c;
+}
+
+.buy2 {
+    margin-left: 28px;
+    color: #06c;
 }
