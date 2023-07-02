@@ -246,3 +246,32 @@ img {
     margin-left: 28px;
     color: #06c;
 }
+
+.text5 {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    left: 69.5%;
+    top: 248.5%;
+}
+
+#healthy {
+    color: #f5f5f7;
+    margin-top: 11px;
+    margin-bottom: 0;
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#learnmorebuy4 {
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .7em;
+    margin-bottom: 0;
+}
